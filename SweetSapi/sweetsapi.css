@@ -1,0 +1,127 @@
+body{
+    background-color: #474E68;
+}
+header{
+    background-color: #789DCA;
+    color: #fff;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+ 
+}
+header .logo{
+    background-image: url(./imagenes/logo.jpeg);
+    margin: 5px;
+    padding: 25px 30px;
+    background-size: 60px;
+    height: 70px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-right: 20px;
+
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    background: #d6e9f5;    
+}
+#inicio{
+    background-image: url(./imagenes/IS/hogar\ \(1\).png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 60px;
+}
+#lecciones{
+    background-image: url(./imagenes/IS/libro-abierto.png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 60px;
+}
+#juegos{
+    background-image: url(./imagenes/IS/palanca-de-mando.png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 60px;
+}
+#logros{
+    background-image: url(./imagenes/IS/medalla.png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 60px;
+}
+#Perfil{
+    background-image: url(./imagenes/IS/usuario\ \(1\).png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 60px;
+}
+#ajustes{
+    background-image: url(./imagenes/IS/circulo-de-puntos-suspensivos.png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 60px;
+}
+
+.leccion{
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.temas{
+    margin-top: 10%;
+    display: flex;
+    position: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    display: flex;
+    position: column;
+    width: 60px;
+    height: 60px;
+}
+
+#estrella{
+    margin-top: 1%;
+    display: flex;
+    position: column;
+    width: 40px;
+    height: 40px;
+}
+
+.tema{
+    display: flex;
+    position: column;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1.5%;
+}
